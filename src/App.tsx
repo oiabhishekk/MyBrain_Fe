@@ -1,35 +1,243 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Button from "./components/ui/Button";
+import { ShareIcon } from "./assets/Icons";
+import Card from "./components/Card";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className=" flex flex-wrap">
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://twitter.com/Sudhanshuz/status/1922624836074942541"
+          type="twitter"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+          tags={["ji", "joo00", "55464"]}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/VVin4wWjFtU?si=GRx-Kh8SZx5cb3Yv"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/QrExPG5O0dE?si=4JcEIdEqqTdSSRil"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://twitter.com/Sudhanshuz/status/1922624836074942541"
+          type="twitter"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+          tags={["ji", "joo00", "55464"]}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/VVin4wWjFtU?si=GRx-Kh8SZx5cb3Yv"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/QrExPG5O0dE?si=4JcEIdEqqTdSSRil"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://twitter.com/Sudhanshuz/status/1922624836074942541"
+          type="twitter"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+          tags={["ji", "joo00", "55464"]}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/VVin4wWjFtU?si=GRx-Kh8SZx5cb3Yv"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/QrExPG5O0dE?si=4JcEIdEqqTdSSRil"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://twitter.com/Sudhanshuz/status/1922624836074942541"
+          type="twitter"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+          tags={["ji", "joo00", "55464"]}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/VVin4wWjFtU?si=GRx-Kh8SZx5cb3Yv"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/QrExPG5O0dE?si=4JcEIdEqqTdSSRil"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://twitter.com/Sudhanshuz/status/1922624836074942541"
+          type="twitter"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/Kb6j3BaWFIE?si=GhGSH-O4tNrCBD80"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+          tags={["ji", "joo00", "55464"]}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/VVin4wWjFtU?si=GRx-Kh8SZx5cb3Yv"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+      <div className="">
+        <Card
+          title=" LOve lofing lofihha"
+          link="https://youtu.be/QrExPG5O0dE?si=4JcEIdEqqTdSSRil"
+          type="youtube"
+          date="24-jun"
+          icon={<ShareIcon />}
+        />
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
